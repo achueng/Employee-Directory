@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://achueng.github.io/Employee-Directory",
   "eslintConfig": {
     "extends": [
       "react-app",
