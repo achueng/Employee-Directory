@@ -2,22 +2,19 @@
 
 ## Description
 
-![Employee Directory Application Demo]()
+This is an Employee Directory Application. An employee or manager can view the entire employee directory at once to have quick access to non-sensitive information about other employees.
+
+![Employee Directory Application Demo](./public/employee-directory-preview.png)
 
 ## Table of Contents
   1. [Installation](#Installation)
-  2. [Usage](#Usage)
-  3. [License](#License)
-  4. [Contributing](#Contributing)
-  5. [Questions](#Questions)
+  2. [License](#License)
+  3. [Contributing](#Contributing)
+  4. [Questions](#Questions)
 
 ## Installation
 
-No installations required. Visit the deployed application: [Employee Directory]()
-
-## Usage
-
-
+No installations required. Visit the deployed application: [Employee Directory](https://achueng.github.io/Employee-Directory/)
 
 ## License
 
