@@ -4,6 +4,8 @@
 
 This is an Employee Directory Application. An employee or manager can view the entire employee directory at once to have quick access to non-sensitive information about other employees.
 
+**[Employee Directory Application](https://achueng.github.io/Employee-Directory/)**
+
 ![Employee Directory Application Demo](./public/employee-directory-preview.png)
 
 ## Table of Contents
