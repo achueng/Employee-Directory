@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table'
 
-function TableLayout(props) {
+function TableLayout({data}) {
     return (
         <Table striped bordered responsive>
             <thead>
@@ -13,13 +13,17 @@ function TableLayout(props) {
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><img src=""/></td>
-                    <td>Name</td>
-                    <td>Email</td>
-                    <td>City</td>
-                    <td>Age</td>
-                </tr>
+                {data.map(employee => {
+                    return (
+                        <tr>
+                            <td><img src={employee.image} alt={employee.name} /></td>
+                            <td>{employee.name}</td>
+                            <td>{employee.email}</td>
+                            <td>{employee.city}</td>
+                            <td>{employee.age}</td>
+                        </tr>
+                    )
+                })}
             </tbody>
         </Table>
     )
