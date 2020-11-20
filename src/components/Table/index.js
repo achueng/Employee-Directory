@@ -1,5 +1,7 @@
+import TableLayout from "./TableLayout";
+
 function Table() {
-    return <h1>TABLE GOES HERE</h1>
+    return <TableLayout/>
 }
 
 export default Table;
