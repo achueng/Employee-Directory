@@ -26,7 +26,7 @@ function Table() {
         .catch(err => console.log(err))
     }
 
-    return <TableLayout/>
+    return <TableLayout data={employeesState}/>
 }
 
 export default Table;
